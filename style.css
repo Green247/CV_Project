@@ -1,0 +1,104 @@
+* {/
+    border: solid 1px red;
+}
+html {
+
+font-family: 'Bree Serif', serif;
+scroll-behavior: smooth;
+}
+.heroWrapper {
+    background-image: linear-gradient(rgba(71, 117, 156, 0.5), rgba(3, 9, 27, 0.5)),  url(./buildings-1867775__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex
+    margin: auto;
+    width: 100px
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+    height: 200px;
+   
+        
+}
+.mainTitle {
+    font-weight: 900;
+    
+}
+
+.center {
+    text-align: center; 
+}
+
+.subTitle {
+    font-weight: 700;
+}
+.details {
+    font-weight: 600;
+}
+.me {
+    font-weight: 300;
+}
+.edu {
+    font-weight: 700;
+}
+
+.navList {
+    list-style: none;
+    margin-top: 0;
+}
+
+.navItem a {
+    text-decoration: none;
+}
+
+p {padding-bottom: 20px; top: 20px;}
+
+.contactBtn {
+    border: solid 2px gray;
+    border-radius: 5px;
+
+} 
+
+.standard {
+    border: 2px solid black;
+}
+.mainTitle {  padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.redi {
+    height: 10%;
+    width: 10%;
+      
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10px;   
+}
+     
