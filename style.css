@@ -72,10 +72,11 @@ p {padding-bottom: 20px; top: 20px;}
     padding-left: 20px;
 }
 
-.redi {
-    height: 10%;
-    width: 10%;
-      
+.logo {
+    height: 5%;
+    width: 5%;
+    display: inline; 
+    align-items: left;    
 }
 
 .container {
@@ -91,6 +92,7 @@ p {padding-bottom: 20px; top: 20px;}
     display: flex;
     justify-content: space-around;
     width: 300px;
+    
 }
 
 .header {
